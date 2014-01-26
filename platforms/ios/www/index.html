@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <meta name="format-detection" content="telephone=no" />
+            <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+            <title>CASTER</title>
+            <link href="css/index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="hd">
+            <div id="home_hd" class="">
+                <h1 class="logo">CASTER</h1>
+            </div>
+            <div id="teachers_hd" class="hide">
+                <span class="back page-link" data-pg="home">返回</span>
+                <div>教师信息</div>
+            </div>
+            <div id="teacher_hd" class="hide">
+                <span class="back page-link" data-pg="teachers">返回</span>
+                <div>教师详情</div>
+            </div>
+            <div id="subjects_hd" class="hide">
+                <span class="back page-link" data-pg="home">返回</span>
+                <ul class="sj-op">
+                    <li class="cur">本周</li>
+                    <li>下周</li>
+                </ul>
+            </div>
+            <div id="subject_hd" class="hide">
+                <span class="back">返回</span>
+                <div>课程选择</div>
+            </div>
+            <div id="seat_hd" class="hide">
+                <span class="back">返回</span>
+                <div>选择座位</div>
+            </div>
+            <div id="order_hd" class="hide">
+                <span class="back page-link"  data-pg="orders">返回</span>
+                <div>订单信息</div>
+            </div>
+            <div id="setting_hd" class="hide">
+                <div>设置</div>
+            </div>
+            <div id="orders_hd" class="hide">
+                <span class="back page-link" data-pg="setting">返回</span>
+                <div>我的订单</div>
+            </div>
+            <div id="cloth_hd" class="hide">
+                <span class="back page-link" data-pg="home">返回</span>
+                <div>服装</div>
+            </div>
+            <div id="news_hd" class="hide">
+                <span class="back page-link" data-pg="home">返回</span>
+                <div>新闻</div>
+            </div>
+            <div id="login_hd" class="hide">
+                <div>用户登录</div>
+            </div>
+            <div id="mine_hd" class="hide">
+                <span class="back page-link" data-pg="setting">返回</span>
+                <div>我的账户</div>
+            </div>
+        </div>
+        <div id="loading" class="ld">
+            <div class="ld-wp">
+                <img src="img/loading.gif" />
+                <div class="ld-txt"></div>
+            </div>
+        </div>
+        <div id="msg" class="msg">
+            <div class="msg-wp">
+                <div class="msg-txt"><img src="img/error.png" /><span></span></div>
+                <div class="msg-func"><span class="msg-btn">确 定</span></div>
+            </div>
+        </div>
+        <div class="wp">
+            <div id="home" class="pg">
+                <div class="ll">
+                    <ul></ul>
+                </div>
+            </div>
+            <div id="subjects" class="pg hide">
+                <div class="sj-tabs">
+                    <div class="sj-weeks">
+                        <ul></ul>
+                    </div>
+                    <div class="sj-list"></div>
+                </div>
+                <div class="sj-tabs hide">
+                    <div class="sj-weeks">
+                        <ul></ul>
+                    </div>
+                    <div class="sj-list"></div>
+                </div>
+            </div>
+            <div id="subject" class="pg hide">
+                <div class="sj"></div>
+            </div>
+            <div id="seat" class="pg hide">
+                <div class="seat">
+                    <h3 class="sj-title">Hip Hop <em>初级</em></h3>
+                    <div class="sj-meta">
+                        <span class="sj-meta-time">13年12月28日 10:30-11:30</span>
+                        <span class="sj-meta-local">Room A</span>
+                    </div>
+                </div>
+                <div class="seat-jz">镜 &nbsp;子</div>
+                <div class="seat-tip">
+                    <ul>
+                        <li class="seat-tip-k">可选</li>
+                        <li class="seat-tip-d">已定</li>
+                        <li class="seat-tip-y">已选</li>
+                    </ul>
+                </div>
+                <div class="seats">
+                    <ul>
+                        <li></li>
+                        <li class="seats-d"></li>
+                        <li class="seats-y"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="seats-d"></li>
+                        <li class="seats-d"></li>
+                        <li class="seats-d"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="seats-submit">
+                    <span class="y-btn page-link" data-pg="order">确定</span>
+                </div>
+            </div>
+            <div id="order" class="pg hide">
+                <div class="sc">
+                    <h3>恭喜您预订成功</h3>
+                    <div class="sc-info">
+                        <p>课程名称：<span>Hip Hop</span></p>
+                        <p>课程时间：<span>13/9/30 10:30-11:30</span></p>
+                        <p>场馆：<span>Room A</span></p>
+                        <p>位置：<span>1排03号</span></p>
+                        <p>会员号：<span>1246433</span></p>
+                        <p>课程编号：<span>003</span></p>
+                        <p>预定单号：<span>1244</span></p>
+                    </div>
+                    <div class="sc-tip">订单可在“设置”页面中“我的订单”功能查询<br />如有疑问请拨打热线电话：012-465111300</div>
+                    <div class="sc-btn">
+                        <span class="y-btn page-link" data-pg="home">确定</span>
+                        <span class="y-btn page-link" data-pg="orders">我的订单</span>
+                    </div>
+                </div>
+            </div>
+            <div id="teachers" class="pg hide">
+                <!--div class="t-i">
+                    <ul>
+                        <li data-id="t_a">A</li>
+                        <li data-id="t_b">B</li>
+                        <li data-id="t_c">C</li>
+                        <li data-id="t_d">D</li>
+                        <li data-id="t_e">E</li>
+                        <li data-id="t_f">F</li>
+                        <li data-id="t_g">G</li>
+                        <li data-id="t_h">H</li>
+                        <li data-id="t_i">I</li>
+                        <li data-id="t_j">J</li>
+                        <li data-id="t_k">K</li>
+                        <li data-id="t_l">L</li>
+                        <li data-id="t_m">M</li>
+                        <li data-id="t_n">N</li>
+                        <li data-id="t_o">O</li>
+                        <li data-id="t_p">P</li>
+                        <li data-id="t_q">Q</li>
+                        <li data-id="t_r">R</li>
+                        <li data-id="t_s">S</li>
+                        <li data-id="t_t">T</li>
+                        <li data-id="t_u">U</li>
+                        <li data-id="t_v">V</li>
+                        <li data-id="t_w">W</li>
+                        <li data-id="t_x">X</li>
+                        <li data-id="t_y">Y</li>
+                        <li data-id="t_z">Z</li>
+                    </ul>
+                </div-->
+                <div class="t"></div>
+            </div>
+            <div id="teacher" class="pg hide"></div>
+            <div id="setting" class="pg hide">
+                <div class="s-item">
+                    <h3><span class="s-item-arrow open"></span>我的信息</h3>
+                    <div class="s-item-info">
+                        <ul class="item-list">
+                            <li class="page-link" data-pg="mine"><span class="item-l-arrow"></span>我的帐号</li>
+                            <li class="page-link" data-pg="orders"><span class="item-l-arrow"></span>我的订单</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="s-item">
+                    <h3><span class="s-item-arrow"></span>关于Caster</h3>
+                    <div class="s-item-info"></div>
+                </div>
+                <div class="s-item">
+                    <h3><span class="s-item-arrow"></span>App信息</h3>
+                    <div class="s-item-info"></div>
+                </div>
+            </div>
+            <div id="orders" class="pg hide">
+                <ul class="item-list"></ul>
+            </div>
+            <div id="login" class="pg hide">
+                <div class="log-in">
+                    <div>
+                        <span class="login-label">用户名：</span>
+                        <input id="username" type="text" />
+                    </div>
+                    <div>
+                        <span class="login-label">密 &nbsp; 码：</span>
+                        <input id="password" type="password" />
+                    </div>
+                    <div>
+                        <span class="y-btn login-submit">登 录</span>
+                    </div>
+                </div>
+            </div>
+            <div id="mine" class="pg hide">
+                <div class="mine">
+                    <p>用户名：<span id="user_name"></span></p>
+                    <p>用户ID：<span id="user_id"></span></p>
+                    <p>账户类型：<span id="user_type"></span></p>
+                    <p>账户余额：<span id="user_money"></span></p>
+                    <p><span class="y-btn logout">注销</span></p>
+                    <p class="hide"><span class="y-btn page-link login-btn" data-pg="login">用户登录</span></p>
+                </div>
+            </div>
+            <div id="cloth" class="pg hide">服装</div>
+            <div id="news" class="pg hide">新闻</div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="n-n active page-link" data-pg="news"><span>新闻</span></li>
+                <li class="n-t active page-link" data-pg="teachers"><span>老师</span></li>
+                <li class="n-k page-link active" data-pg="home"><span>课表</span></li>
+                <li class="n-c active page-link" data-pg="cloth"><span>服装</span></li>
+                <li class="n-s active page-link" data-pg="setting"><span>设置</span></li>
+            </ul>
+        </div>
+        <script src="pohonegap.js"></script>
+        <script src="js/zepto.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
